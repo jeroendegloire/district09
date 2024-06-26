@@ -93,7 +93,7 @@ class DataVisualizer extends HTMLElement {
                 <h2>${event.name}</h2>
                 <p>Date: ${event.startdate} - ${event.enddate}</p>
                 <p>Location: ${event.location}</p>
-                <a href="${event.link}" target="_blank">More Info</a>
+                <a href="${event.link}" target="_blank">Meer info</a>
             </div>
         `).join('')
         html += `</div>`;
